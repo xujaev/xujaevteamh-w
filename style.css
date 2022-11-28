@@ -1,4 +1,167 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.XM-center{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.XM-firstpage{
+    background-image: url(./images/IMAGEXM-background.png);
+    background-size: 100% 100%;
+}
+.XM-navbar .XM-center .XM-nav-items{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding-top: 6px;
+    padding-bottom: 23px;
+}
+.XM-navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    background-color: white;
+}
+
+.XM-navbar .XM-center .XM-nav-items ul{
+    display: flex;
+    gap: 30px;
+}
+.XM-navbar .XM-center .XM-nav-items ul li{
+    list-style: none;
+}
+.XM-navbar .XM-center .XM-nav-items ul li a{
+    text-decoration: none;
+    font-weight: 400;
+font-size: 15px;
+line-height: 1px;
+letter-spacing: 0.2px;
+text-transform: lowercase;
+color: #222222;
+}
+.XM-navbar .XM-center .XM-nav-items ul li:hover a{
+   padding: 5px 10px;
+   border-radius: 10px;
+   color: #012D39;
+   transition: all 0.7s ease;
+   background-color: #C02062;
+}
+.XM-navbar .XM-center .XM-nav-items ul li .XM-demos{
+    font-weight: 400;
+font-size: 15px;
+line-height: 1px;
+letter-spacing: 0.2px;
+text-transform: lowercase;
+color: #FD8558;
+}
+.XM-firstpage{
+    margin-top: 77px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.XM-firstpage h1{
+    font-weight: 400;
+font-size: 70px;
+line-height: 85px;
+text-align: center;
+color: #FFFFFF;
+}
+.XM-firstpage .XM-start{
+    font-weight: 700;
+font-size: 15px;
+line-height: 30px;
+color: #FFFFFF;
+padding: 13px 39px;
+margin-top: 41px;
+background-color: #FD8558;
+margin-right: 28px;
+border: none;
+margin-left: 130px;
+}
+.XM-firstpage .XM-see{
+    font-weight: 700;
+font-size: 15px;
+line-height: 30px;
+color: #FFFFFF;
+padding: 13px 39px;
+margin-top: 41px;
+background-color: transparent;
+border:1px solid #FD8558;
+}
+.XM-firstpage .XM-start:hover{
+    cursor: pointer;
+    transition: all 0.7s ease;
+    border-radius: 15px;
+    background-color: #C02062;
+    border: none;
+}
+/* button:hover{
+    cursor: pointer;
+    background-color: #182e52;
+    border-radius: 15px;
+    transition: all 0.7s ease;
+    border: none;
+} */
+.XM-firstpage .XM-see:hover{
+    cursor: pointer;
+    transition: all 0.7s ease;
+    border-radius: 15px;
+    background-color: #C02062;
+    border: none;
+}
+.XM-firstpage .XM-positionimg .XM-crest{
+    position: absolute;
+    bottom: 100px;
+    left: 97px;
+}
+.XM-firstpage .XM-positionimg .XM-topl{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.XM-firstpage .XM-positionimg .XM-downr{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.XM-firstpage .XM-positionimg .XM-planet{
+    position: absolute;
+    top: 14px;
+    right: 140px;
+}
+.XM-firstpage .XM-positionimg .XM-circle{
+    position: absolute;
+    top: 132px;
+    z-index: 1;
+    right: 450px;
+}
+.XM-design{
+    position: static;
+    z-index: 2;
+}
+.XM-firstpage .XM-positionimg .XM-dc{
+    position: absolute;
+    top: 176px;
+    z-index: 0;
+    right: 470px;
+}
+.XM-firstpage .XM-positionimg .XM-screst{
+    position: absolute;
+    top: 405px;
+    right: 112px;
+}
+
+
+
 .iscontainer{
     width: 100%;
     display: flex;
@@ -283,3 +446,4 @@ color: #BABABA;
 .isposli span{
     color: #FFFFFF;
 }
+
