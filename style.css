@@ -159,3 +159,164 @@ border:1px solid #FD8558;
     right: 112px;
 }
 
+.md-about{
+    width: 100%;
+
+}
+.md-center{
+    width: 80%;
+    margin: auto;
+}
+.md-head{
+    width: 100%;
+  
+
+}
+.md-head img{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 30%;
+    height: 20vh;
+}
+.md-us{
+    margin-top: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.md-ultimate{
+    width: 35%;
+}
+.eros{
+    width: 45%;
+}
+.md-ultimate h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    color: #333333;
+}
+.md-ultimate h5{
+    list-style-type: none;
+  
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: red;
+}
+.md-ultimate a{
+    text-decoration: none;
+}
+.md-ultimate h5:hover{
+    color: green;
+}
+.eros h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #222222;
+}
+.eros p{
+    margin-top: 11px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+color: #999999;
+}
+.md-our{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.md-pic img{
+    margin-left: 50px;
+}
+.mission{
+    margin-top: 80px;
+    width: 30%;
+}
+.mission h1{
+   margin-bottom: 70px; 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 45px;
+color: #222222;
+}
+.mission span{
+    color: red;
+}
+.mission h2{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: #222222;
+margin-bottom: 20px;
+
+}
+.mission h5{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+letter-spacing: 1.8px;
+color: #CACACA;
+}
+.digital{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.solution{
+    text-align: center;
+    width: 30%;
+}
+.solution img{
+    margin-bottom: 21px;
+}
+.solution h1{
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 38px;
+color: #333333;
+
+}
+.solution p{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+text-align: center;
+color: #999999;
+margin-bottom: 100px;
+}
+.md-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.md-kat{
+    width: 42%;
+    height: 1px;
+    background-color: gray;
+   
+}
